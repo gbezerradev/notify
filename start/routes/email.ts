@@ -1,5 +1,5 @@
 import router from '@adonisjs/core/services/router'
 
-router.get('/', async () => {
+router.post('/email', () => {
   return { status: 'online' }
 })
